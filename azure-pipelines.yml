@@ -4,12 +4,12 @@ strategy:
   matrix:
     helloWorld:
       containerImage: hello-world:latest
-    ubuntu16:
-      containerImage: ubuntu:16.04
-    ubuntu18:
-      containerImage: ubuntu:18.04
-    ubuntu20:
-      containerImage: ubuntu:20.04
+    # ubuntu16:
+    #   containerImage: ubuntu:16.04
+    # ubuntu18:
+    #   containerImage: ubuntu:18.04
+    # ubuntu20:
+    #   containerImage: ubuntu:20.04
 
 container: $[ variables['containerImage'] ]
 

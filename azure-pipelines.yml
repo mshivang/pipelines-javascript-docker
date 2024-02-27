@@ -3,7 +3,7 @@ pool: default
 strategy:
   matrix:
     helloWorld:
-      containerImage: hello-world
+      containerImage: hello-world:latest
     ubuntu16:
       containerImage: ubuntu:16.04
     ubuntu18:
